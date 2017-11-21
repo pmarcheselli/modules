@@ -1,0 +1,39 @@
+/*
+.bg-black {
+  background-color: black;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+.bg-grey {
+  background-color: grey;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.swatches li {
+  border-radius: 50%;
+}
+*/
+
+
+
+div {
+  width: 5vw;
+  height: 10vh;
+  background-color: blue;  
+  -webkit-transition: width 2s, height 4s; /* Safari */
+  transition: width 2s, height 4s; 
+  -webkit-transition-timing-function: linear;
+  transition-timing-function: ease;
+}
+
+div:hover {
+  width: 10vw;
+  height: 20vh;
+}
+
