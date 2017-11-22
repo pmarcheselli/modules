@@ -7,12 +7,13 @@ body {
 section {
   float: left;
   width: 20vw;
+  margin: 1em 2em;
 }
 
 img {
   position: relative;
   width: 9vw;
-  padding: 2em 4em .5em 4em;
+  padding: 2em 4em 1em 4em;
 }
 
 .swatches {
@@ -26,9 +27,9 @@ img {
   display: inline-block;
   border-radius: 50%;
   list-style-type: none;
-  height: 1.25em;
-  width: 1.25em;
-  margin-left: 1vw;
+  height: 1.15em;
+  width: 1.15em;
+  margin: 0 0.5vw;
 }
 
 .bg-black {
@@ -39,12 +40,20 @@ img {
   background-color: blue;
 }
 
+.bg-aqua {
+  background-color: aqua;
+}
+
 .bg-grey {
   background-color: grey;
 }
 
 .bg-red {
   background-color: red;
+}
+
+.bg-dkred {
+  background-color: darkred;
 }
 
 a {
@@ -68,33 +77,36 @@ p {
   color: black;
 }
 
-.price {
-  margin-top: 1em;
+.saleprice {
+  margin-top: 1.25em;
+  color: red;
 }
 
+.price {
+  margin: 1.87em 0;
+  color: black;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+  color: black;
+}
 
 .ratings {
   list-style-type: none;
   margin: 1em 0;
 }
 
+i {
+  color: peru;
+}
+
 .button {
   width: 8vw;
   text-align: center;
-  border: 1px solid grey;
-  font-size: .75em;
+  border: 1px solid lightgrey;
+  font-size: .80em;
   padding: .5em .05em;
-  margin-left: 5.25em;
+  margin-left: 5em;
   border-radius: 2px;
 }
-
-
-
-/*
-button {
-  text-align: center;
-  padding: .5em 1em;
-}
-*/
-
-
